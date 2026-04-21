@@ -1,0 +1,32 @@
+{
+  "name": "robert/demo",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Robert John Guloy",
+      "email": "robertjohnguloy@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^12.56"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.8"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
